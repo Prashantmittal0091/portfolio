@@ -2,6 +2,9 @@
 
 A high-performance personal developer portfolio built strictly using **semantic HTML5** and **modern CSS3**, with zero external frameworks, libraries, or JavaScript.
 
+- 🌐 **Permanent Live Demo URL:** [https://prashantmittal0091.github.io/portfolio/](https://prashantmittal0091.github.io/portfolio/)
+- 💻 **GitHub Repository:** [https://github.com/Prashantmittal0091/portfolio](https://github.com/Prashantmittal0091/portfolio)
+
 ---
 
 ## 📋 Project Description (Ready for Submission Form)
