@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio of Prashant Mittal - Aspiring Frontend & Software Developer. Explore my academic background, technical skills, web projects, and contact info.">
+  <meta name="author" content="Prashant Mittal">
+  <title>Prashant Mittal | Frontend Developer Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================
+       1. HEADER & NAVIGATION
+       ========================================================= -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#home" class="logo" aria-label="Prashant Mittal Portfolio Home">
+        <span class="logo-bracket">&lt;</span><span class="logo-name">Prashant Mittal</span><span class="logo-slash">&#47;</span><span class="logo-bracket">&gt;</span>
+      </a>
+
+      <!-- Pure CSS Mobile Navigation Toggle (No JavaScript Required) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </label>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-sm btn-nav">Hire Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================
+         2. HERO / HOME SECTION
+         ========================================================= -->
+    <section id="home" class="hero-section">
+      <div class="hero-background-glow" aria-hidden="true"></div>
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Available for 2026 Developer Internship</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Crafting elegant, accessible &amp; <span class="gradient-text">modern web experiences</span>
+          </h1>
+          
+          <p class="hero-role">
+            <span class="role-prefix">Hi, I'm</span> <strong>Prashant Mittal</strong> — Aspiring Frontend &amp; Software Developer
+          </p>
+          
+          <p class="hero-description">
+            A passionate Computer Science student dedicated to building high-performance, responsive websites with clean semantic HTML5 and modern CSS3. I bridge design aesthetics with maintainable, human-centered code.
+          </p>
+          
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <span class="highlight-number">100%</span>
+              <span class="highlight-label">Pure HTML &amp; CSS</span>
+            </div>
+            <div class="highlight-divider" aria-hidden="true"></div>
+            <div class="highlight-item">
+              <span class="highlight-number">3.85</span>
+              <span class="highlight-label">Major GPA</span>
+            </div>
+            <div class="highlight-divider" aria-hidden="true"></div>
+            <div class="highlight-item">
+              <span class="highlight-number">10+</span>
+              <span class="highlight-label">Academic Projects</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="avatar-card-wrapper">
+            <div class="avatar-glow-ring" aria-hidden="true"></div>
+            <div class="avatar-frame">
+              <img src="images/profile.jpg" alt="Prashant Mittal - Developer Avatar with laptop" class="profile-image" width="460" height="460">
+            </div>
+            
+            <!-- Floating Decorative Badges -->
+            <div class="floating-badge badge-top-right" aria-hidden="true">
+              <span class="badge-icon">⚡</span>
+              <span class="badge-text">Semantic HTML5</span>
+            </div>
+            
+            <div class="floating-badge badge-bottom-left" aria-hidden="true">
+              <span class="badge-icon">🎨</span>
+              <span class="badge-text">Modern CSS3 Grid</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3. ABOUT ME SECTION
+         ========================================================= -->
+    <section id="about" class="about-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <p class="section-subtitle">Discover My Story</p>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <div class="section-line" aria-hidden="true"></div>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Biography Card -->
+          <article class="about-card bio-card">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="card-title">Personal Biography</h3>
+            <p class="card-text">
+              Hello! I am a junior undergraduate student pursuing a Bachelor of Science in Computer Science. My enthusiasm for web development began when I crafted my first webpage and experienced the thrill of transforming raw text into an interactive, visual medium.
+            </p>
+            <p class="card-text">
+              I place high value on clean semantic structure, accessibility (WCAG compliance), responsive layouts, and cross-browser consistency. I enjoy deciphering complex UI challenges, refining spacing, and crafting web layouts that look just as gorgeous on an iPhone as they do on a 4K display.
+            </p>
+            <div class="personal-attributes">
+              <span class="attribute-pill">Problem Solver</span>
+              <span class="attribute-pill">Detail Oriented</span>
+              <span class="attribute-pill">Eager Learner</span>
+              <span class="attribute-pill">Team Collaborator</span>
+            </div>
+          </article>
+
+          <!-- Education Card -->
+          <article class="about-card education-card">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Education &amp; Academics</h3>
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <h4 class="timeline-role">B.S. in Computer Science</h4>
+                <span class="timeline-date">2023 – Present (Expected 2027)</span>
+              </div>
+              <p class="timeline-institution">State University Institute of Technology</p>
+              <p class="timeline-detail"><strong>GPA:</strong> 3.85 / 4.00 &bull; Dean's Honor List</p>
+            </div>
+            
+            <div class="coursework-box">
+              <h4 class="coursework-title">Relevant Academic Coursework:</h4>
+              <ul class="coursework-list">
+                <li>Web Design &amp; Architecture</li>
+                <li>Data Structures &amp; Algorithms</li>
+                <li>Human-Computer Interaction (HCI)</li>
+                <li>Software Engineering Principles</li>
+                <li>Database Management Systems</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Career Interests Card -->
+          <article class="about-card interests-card">
+            <div class="card-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="card-title">Career Goals &amp; Interests</h3>
+            <p class="card-text">
+              My current objective is securing an <strong>internship or junior frontend engineering role</strong> where I can collaborate with talented engineering teams, contribute to scalable customer-facing applications, and elevate user satisfaction.
+            </p>
+            <ul class="interests-checklist">
+              <li>
+                <span class="check-bullet" aria-hidden="true">&#10003;</span>
+                <span><strong>Design Systems:</strong> Crafting atomic, reusable UI components and tokenized style guides.</span>
+              </li>
+              <li>
+                <span class="check-bullet" aria-hidden="true">&#10003;</span>
+                <span><strong>Web Accessibility (A11y):</strong> Guaranteeing inclusive digital experiences for all users.</span>
+              </li>
+              <li>
+                <span class="check-bullet" aria-hidden="true">&#10003;</span>
+                <span><strong>Performance Tuning:</strong> Minimizing layout shifts (CLS), optimizing assets, and speed.</span>
+              </li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. SKILLS SECTION
+         ========================================================= -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <p class="section-subtitle">My Technical Toolkit</p>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+          <div class="section-line" aria-hidden="true"></div>
+          <p class="section-description">
+            Equipped with core foundations in web technologies, modern responsive design patterns, and engineering workflows.
+          </p>
+        </div>
+
+        <div class="skills-categories-grid">
+
+          <!-- Category 1: Core Web Fundamentals -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-wrapper" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="category-title">Core Web Standards</h3>
+            </div>
+            
+            <div class="skills-chip-container">
+              <!-- Skill 1 -->
+              <div class="skill-chip">
+                <div class="skill-badge-header">
+                  <span class="skill-tag">HTML5</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <p class="skill-desc">Semantic elements, form validation, SEO metadata &amp; audio/video APIs.</p>
+              </div>
+
+              <!-- Skill 2 -->
+              <div class="skill-chip">
+                <div class="skill-badge-header">
+                  <span class="skill-tag">CSS3</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <p class="skill-desc">Variables, transitions, box-model, keyframes, calc(), and custom properties.</p>
+              </div>
+
+              <!-- Skill 3 -->
+              <div class="skill-chip">
+                <div class="skill-badge-header">
+                  <span class="skill-tag">Semantic Markup</span>
+                  <span class="skill-level">Proficient</span>
+                </div>
+                <p class="skill-desc">Accessible landmark tags, heading hierarchies, ARIA attributes.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Modern Layout & Responsive Design -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-wrapper" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="3" y1="9" x2="21" y2="9"></line>
+                  <line x1="9" y1="21" x2="9" y2="9"></line>
+                </svg>
+              </div>
+              <h3 class="category-title">Layouts &amp; Styling</h3>
+            </div>
+            
+            <div class="skills-chip-container">
+              <!-- Skill 4 -->
+              <div class="skill-chip">
+                <div class="skill-badge-header">
+                  <span class="skill-tag">CSS Flexbox</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <p class="skill-desc">1D alignment, flex-wrap, distribution, dynamic headers and navigation.</p>
+              </div>
+
+              <!-- Skill 5 -->
+              <div class="skill-chip">
+                <div class="skill-badge-header">
+                  <span class="skill-tag">CSS Grid</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <p class="skill-desc">2D responsive grids, repeat(auto-fit, minmax), grid areas &amp; gap control.</p>
+              </div>
+
+              <!-- Skill 6 -->
+              <div class="skill-chip">
+                <div class="skill-badge-header">
+                  <span class="skill-tag">Responsive Design</span>
+                  <span class="skill-level">Proficient</span>
+                </div>
+                <p class="skill-desc">Mobile-first methodology, viewport units, clamp(), fluid media queries.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Developer Tools & Workflows -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon-wrapper" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Tools &amp; Best Practices</h3>
+            </div>
+            
+            <div class="skills-chip-container">
+              <!-- Skill 7 -->
+              <div class="skill-chip">
+                <div class="skill-badge-header">
+                  <span class="skill-tag">Git &amp; GitHub</span>
+                  <span class="skill-level">Proficient</span>
+                </div>
+                <p class="skill-desc">Version control, branch management, pull requests, and commit hygiene.</p>
+              </div>
+
+              <!-- Skill 8 -->
+              <div class="skill-chip">
+                <div class="skill-badge-header">
+                  <span class="skill-tag">Browser DevTools</span>
+                  <span class="skill-level">Advanced</span>
+                </div>
+                <p class="skill-desc">DOM inspection, responsive preview modes, network auditing, lighthouse.</p>
+              </div>
+
+              <!-- Skill 9 -->
+              <div class="skill-chip">
+                <div class="skill-badge-header">
+                  <span class="skill-tag">UI/UX &amp; Accessibility</span>
+                  <span class="skill-level">Proficient</span>
+                </div>
+                <p class="skill-desc">Color contrast ratios, keyboard navigability, focus indicators, WCAG 2.1.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. PROJECTS SECTION
+         ========================================================= -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <p class="section-subtitle">Showcase of Work</p>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <div class="section-line" aria-hidden="true"></div>
+          <p class="section-description">
+            Selected academic and hands-on projects highlighting semantic markup, responsive CSS architectures, and user-centered design.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: EduTrack Dashboard -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <img src="images/project-dashboard.jpg" alt="EduTrack Student Academic Dashboard UI Screenshot" class="project-img" width="700" height="394" loading="lazy">
+              <div class="project-overlay">
+                <span class="overlay-tag">Academic Capstone</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category">Web Application UI</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">EduTrack &mdash; Student Academic Dashboard</h3>
+              <p class="project-description">
+                A clean, responsive dashboard interface designed for university students to track semester grades, course completion, pending assignments, and weekly study schedules. Engineered with structured HTML5 semantic landmarks and multi-column CSS Grid.
+              </p>
+              
+              <div class="project-tech-stack" aria-label="Technologies used">
+                <span class="tech-tag">HTML5 Semantics</span>
+                <span class="tech-tag">CSS Grid</span>
+                <span class="tech-tag">Flexbox</span>
+                <span class="tech-tag">Responsive Layout</span>
+              </div>
+              
+              <div class="project-actions">
+                <a href="#contact" class="btn btn-sm btn-outline">
+                  <span>Live Preview</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="https://github.com/Prashantmittal0091" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: EcoPulse Sustainability Portal -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <img src="images/project-ecopulse.jpg" alt="EcoPulse Environmental Sustainability Portal UI Screenshot" class="project-img" width="700" height="394" loading="lazy">
+              <div class="project-overlay">
+                <span class="overlay-tag">Community Project</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category">Landing Page &amp; Portal</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">EcoPulse &mdash; Environmental Awareness Portal</h3>
+              <p class="project-description">
+                An eco-initiative web portal presenting monthly carbon footprint metrics, renewable energy statistics, and daily actionable sustainability guides. Highlights fluid CSS cards, vibrant status meters, and accessible color-contrast ratios.
+              </p>
+              
+              <div class="project-tech-stack" aria-label="Technologies used">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS Variables</span>
+                <span class="tech-tag">Flexbox</span>
+                <span class="tech-tag">WCAG A11y</span>
+              </div>
+              
+              <div class="project-actions">
+                <a href="#contact" class="btn btn-sm btn-outline">
+                  <span>Live Preview</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="https://github.com/Prashantmittal0091" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: DevReads Technical Book Catalog -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <img src="images/project-devreads.jpg" alt="DevReads Technical Book Catalog and Notes UI Screenshot" class="project-img" width="700" height="394" loading="lazy">
+              <div class="project-overlay">
+                <span class="overlay-tag">Open Source Concept</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="project-category">Curated Library Directory</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">DevReads &mdash; Technical Library &amp; Notes</h3>
+              <p class="project-description">
+                A structured catalog for developers to track must-read engineering books, key chapter takeaways, and reading progress. Employs CSS Grid auto-fill cards, badges, and responsive sidebar navigation.
+              </p>
+              
+              <div class="project-tech-stack" aria-label="Technologies used">
+                <span class="tech-tag">Semantic HTML5</span>
+                <span class="tech-tag">CSS Grid Layout</span>
+                <span class="tech-tag">Custom Buttons</span>
+                <span class="tech-tag">Micro-animations</span>
+              </div>
+              
+              <div class="project-actions">
+                <a href="#contact" class="btn btn-sm btn-outline">
+                  <span>Live Preview</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="https://github.com/Prashantmittal0091" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-ghost">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. CONTACT SECTION
+         ========================================================= -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <p class="section-subtitle">Let's Connect</p>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <div class="section-line" aria-hidden="true"></div>
+          <p class="section-description">
+            Interested in hiring me for an internship, collaborating on a project, or discussing web engineering? I'd love to hear from you!
+          </p>
+        </div>
+
+        <div class="contact-layout">
+
+          <!-- Contact Details & Profile Links Column -->
+          <div class="contact-info-panel">
+            <h3 class="panel-heading">Direct Contact &amp; Profiles</h3>
+            <p class="panel-subtext">
+              Feel free to reach out directly via email or connect with me across professional networks.
+            </p>
+
+            <ul class="contact-channels-list">
+              <!-- Email -->
+              <li class="channel-card">
+                <div class="channel-icon-box" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="channel-text">
+                  <span class="channel-label">Email Address</span>
+                  <a href="mailto:prashantmittal0091@gmail.com" class="channel-link">prashantmittal0091@gmail.com</a>
+                </div>
+              </li>
+
+              <!-- GitHub Profile -->
+              <li class="channel-card">
+                <div class="channel-icon-box" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </div>
+                <div class="channel-text">
+                  <span class="channel-label">GitHub Repository Profile</span>
+                  <a href="https://github.com/Prashantmittal0091" target="_blank" rel="noopener noreferrer" class="channel-link">github.com/Prashantmittal0091</a>
+                </div>
+              </li>
+
+              <!-- LinkedIn Profile -->
+              <li class="channel-card">
+                <div class="channel-icon-box" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </div>
+                <div class="channel-text">
+                  <span class="channel-label">LinkedIn Profile</span>
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="channel-link">linkedin.com/in/alexmorgan-dev</a>
+                </div>
+              </li>
+
+              <!-- Location / Availability -->
+              <li class="channel-card">
+                <div class="channel-icon-box" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="channel-text">
+                  <span class="channel-label">Location &amp; Work Eligibility</span>
+                  <span class="channel-static-info">San Francisco Bay Area, CA &bull; Open to Remote &amp; Hybrid</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Visual Demo Contact Form -->
+          <div class="contact-form-panel">
+            <h3 class="panel-heading">Send a Quick Message</h3>
+            
+            <!-- Clarifying Disclaimer as required by project brief -->
+            <div class="demo-notice" role="status">
+              <span class="notice-icon" aria-hidden="true">ℹ️</span>
+              <p class="notice-text">
+                <strong>Visual Demo Form:</strong> This form demonstrates semantic HTML form elements and CSS styling for the internship submission. Form data is not processed by a backend.
+              </p>
+            </div>
+
+            <form action="#contact" method="get" class="styled-contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Full Name <span class="required-star">*</span></label>
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Jane Doe" required>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Email Address <span class="required-star">*</span></label>
+                  <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. jane@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="Internship Opportunity / Inquiry">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message <span class="required-star">*</span></label>
+                <textarea id="contact-message" name="message" class="form-textarea" rows="4" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span>Send Message (Demo)</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       7. FOOTER
+       ========================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-top">
+        <a href="#home" class="logo footer-logo" aria-label="Return to top">
+          <span class="logo-bracket">&lt;</span><span class="logo-name">Prashant Mittal</span><span class="logo-slash">&#47;</span><span class="logo-bracket">&gt;</span>
+        </a>
+        <p class="footer-tagline">
+          Building resilient, accessible, and high-performance interfaces using modern HTML5 &amp; CSS3 standards.
+        </p>
+        <ul class="footer-quick-links" aria-label="Footer Quick Navigation">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; 2026 <strong>Prashant Mittal</strong>. Built for HTML &amp; CSS Internship Project. All rights reserved.
+        </p>
+        <a href="#home" class="back-to-top" aria-label="Back to top of page">
+          <span>Back to Top</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
